@@ -1,4 +1,4 @@
-package com.gxl.algorithms.sorts;
+package main.java.com.gxl.algorithms.sorts;//package com.gxl.algorithms.sorts;
 
 import java.lang.*;
 import java.util.Arrays;
