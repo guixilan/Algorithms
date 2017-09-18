@@ -12,17 +12,11 @@ public class BubbleSort {
             for(int j = 0;j < i;++j){
                 if(arrays[j] > arrays[j+1])
                 {
-                    exchange(arrays,j,j+1);
+                    CommonUtils.exchange(arrays,j,j+1);
                 }
             }
         }
         return arrays;
-    }
-
-    private static void exchange(int [] A,int i,int j){
-        int temp = A[i];
-        A[i] = A[j];
-        A[j]= temp;
     }
 
     public static void main(String args[]){
